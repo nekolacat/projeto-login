@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+    body {
+       background: linear-gradient(to bottom, #000000, #525252) no-repeat fixed;
+    }
+
+    #img {
+        width: 200px;
+        height: 400px;
+    }
+
+    #login {
+        width: 700px;
+        height: 400px;
+    }
+
+    #login > h1{
+        position: absolute;
+        top: 20px;
+        left: 240px;
+    }
+
+    #login > p{
+        position: absolute;
+        top: 80px;
+        left: 236px;
+    }
+    
+    #form {
+        position: absolute;
+        top: 130px;
+        left: 236px;
+    }
+
+    #entra {
+        position: absolute;
+        right: 105px;
+    }
+    
+    #link {
+        position: absolute;
+        top: 280px;
+        left: 232px;
+        text-align: left;
+    }
+}

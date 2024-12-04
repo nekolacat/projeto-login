@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #525252;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+#img {
+    height: 300px;
+    background: url(../img/predio.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+#login {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+
+    background-color: #1d1d1d;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #646464;
+    box-shadow: 0px 5px 30px #000000cc;
+}
+
+#login > h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#login p {
+    padding: 5px;
+    font-size: 15px;
+}
+
+#form {
+    padding-top: 5px;
+}
+
+form input#iuser, input#isenha{
+    width: 150px;
+    border: 2px solid #646464;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 5px;
+    transition: .2s;
+}
+
+input#iuser:hover, input#isenha:hover {
+    border: 2px solid #0044ffc4;
+    transition: .2s;
+}
+
+input#iuser:focus, input#isenha:focus {
+    border: 2px solid #0044ff70;
+    transition: .2s;
+}
+
+#entra {
+    color: white;
+    border: 2px solid #646464;
+    border-radius: 5px;
+    background-color: #363636;
+    margin-top: 10px;
+    padding: 7px;
+    transition: .2s;
+    margin-bottom: 10px;
+}
+
+#entra:hover {  
+    padding: 5px;
+    border: 2px solid #0044ff70;
+    transition: .2s;
+}
+
+#link p, a {
+    line-height: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+#link a:hover {
+    color: #62a6ff;
+}
