@@ -2,46 +2,24 @@
 
 @media screen and (min-width:768px){
     body {
-       background: linear-gradient(to bottom, #000000, #525252) no-repeat fixed;
+       background: linear-gradient(to bottom, #000000, #424242) no-repeat fixed;
     }
 
     #img {
-        width: 200px;
-        height: 400px;
+        height: 100%;
+        width: 30%;
+        float: left;
+        margin-right: 30px ;
     }
 
     #login {
+        text-align: left;
+        float: right;
         width: 700px;
         height: 400px;
     }
-
-    #login > h1{
-        position: absolute;
-        top: 20px;
-        left: 240px;
+    #login > h1 {
+        padding-top: 30px;
     }
 
-    #login > p{
-        position: absolute;
-        top: 80px;
-        left: 236px;
-    }
-    
-    #form {
-        position: absolute;
-        top: 130px;
-        left: 236px;
-    }
-
-    #entra {
-        position: absolute;
-        right: 105px;
-    }
-    
-    #link {
-        position: absolute;
-        top: 280px;
-        left: 232px;
-        text-align: left;
-    }
 }
